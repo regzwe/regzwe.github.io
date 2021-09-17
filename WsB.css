@@ -1,0 +1,28 @@
+body {
+    background-image: url(https://www.plantura.garden/wp-content/uploads/2018/12/Blaubeeren-1024x683.jpg);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: scroll;
+    background-size: cover;
+    background-clip: border-box;
+}
+
+.parent {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    width: 500px;
+}
+
+.heidelbeere {
+    background-color: rgb(185, 0, 255);
+    width: auto;
+    height: auto;
+    font-size: larger;
+    border: 5px solid rgb(0, 0, 255);
+}
+a{
+    text-decoration:none;
+    color:rgb(0, 0, 0);
+}

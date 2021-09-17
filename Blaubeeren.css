@@ -1,0 +1,70 @@
+body {
+    background-image: url(https://www.plantura.garden/wp-content/uploads/2018/12/Blaubeeren-1024x683.jpg);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: scroll;
+    background-size: cover;
+    background-clip: border-box;
+}
+
+.rainbow-text {
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.Link-button {
+    background-color: gold;
+    border: 2px solid black;
+    color: green;
+    text-decoration: none;
+    padding: 5px 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    margin: 10px 30px;
+    cursor: pointer;
+    max-width: 200px;
+}
+
+p {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.parent {
+    position: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 500px;
+}
+
+.div {
+    position: relative;
+    width: 100%;
+    background: center;
+    background-color: rgba(0, 13, 255, 0.80);
+    color: gray;
+    border: 3px solid #8AC007;
+}
+
+.buttons {
+    left: 0;
+    right: 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: brown;
+}
+
+button p {
+    text-decoration: none;
+    color: hotpink;
+    font-size: 16px;
+}

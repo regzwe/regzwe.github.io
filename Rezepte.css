@@ -1,0 +1,25 @@
+body {
+    background-image: url(https://www.plantura.garden/wp-content/uploads/2018/12/Blaubeeren-1024x683.jpg);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: scroll;
+    background-size: cover;
+    background-clip: border-box;
+}
+div {
+    margin:0 auto;
+}
+.Link-button    {
+    background-color: gold;
+    border: 2px solid black;
+    color: green;
+    text-decoration:none;
+    padding: 5px 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    margin: 10px 30px;
+    cursor: pointer;
+    max-width: 200px;
+}
